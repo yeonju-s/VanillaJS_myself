@@ -1,0 +1,18 @@
+.quaote {
+  width: 100vw;
+  z-index: 3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.quaote h2 {
+  font-weight: 500;
+}
+
+.quaote h2,
+.quaote span {
+  display: inline-block;
+  margin: 10px auto;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
