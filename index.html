@@ -9,27 +9,31 @@
 </head>
 <body>
     <div class="greeting">
-        <h1 class="hidden"></h1>
-        <div id="date">
-            <div class="clock">00:00:00</div>
+        <div class="h1">
+            <h1 class="hidden"></h1>
+         </div>
+        <div id="date"> 
             <div class="today">2000 / 00 / 00 (0)</div>
+            <div class="clock">00:00:00</div>
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
         </div>    
         <form id="login-form">
             <input type="text" placeholder="Enter your Nickname" required> 
             <button>접속</button>       
         </form>
+        <div class="quaote"></div>
     </div>
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
+    
     <ul id="todo-list">
         <cite>To-do list</cite>
         <form id="todo-form">
             <input type="text" placeholder="Write a To Do and Press Enter" required>
         </form>
     </ul>
-    <div class="quaote"></div>
+    
     <script src="JS/greeting.js"></script>
     <script src="JS/clock.js"></script>
     <script src="JS/quaote.js"></script>
