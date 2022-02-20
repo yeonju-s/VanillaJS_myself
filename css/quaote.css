@@ -1,7 +1,7 @@
 .quaote {
   width: 100vw;
-  z-index: 3;
-  color: white;
+  height: 33%;
+  color: rgb(230, 230, 230);
   display: flex;
   flex-direction: column;
 }
@@ -14,5 +14,5 @@
 .quaote span {
   display: inline-block;
   margin: 10px auto;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
